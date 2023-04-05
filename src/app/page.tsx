@@ -1,13 +1,12 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
+import React from 'react'
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+const page = () => {
   return (
-    <main>
-      <h1>Hello next 13 </h1>
-    </main>
+    <div>
+      <h1>Next level next js</h1>
+    </div>
   )
 }
+
+export default page
+
