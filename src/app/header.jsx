@@ -1,11 +1,15 @@
-import React from 'react'
+"use client";
+
 import Link from "next/link"
+import SearchBar from "../app/components/clients/SearchBar"
+
 const header = () => {
   return (
-    <div>
+    <nav>
         <Link href={"/"}>Home</Link>
         <Link href={"/about"}>About</Link>
-    </div>
+        <SearchBar />
+    </nav>
   )
 }
 
